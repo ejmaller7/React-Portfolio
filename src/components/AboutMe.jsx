@@ -48,10 +48,10 @@ const AboutMe = () => {
                     My name is Ethan Maller and I am a college graduate from the University of Texas at San Antonio.
                     I graduated with a degree in Finance after 4 years and sought to further my education by pursuing a
                     different aspect of my interests in the form of Software Development. In doing so, I have learned 
-                    software development at a basic and intermediate level and continute to hone my skills as time progresses.
-                    At the moment, I am employed in an IT Software Specialist at a company called WoundLocal in Boerne, Texas.
+                    software development at a basic and intermediate level and continue to hone my skills as time progresses.
+                    At the moment, I am employed in an IT Software Specialist role at a company called WoundLocal in Boerne, Texas.
                     This position allows me to pursue my interest of entering the technology field where I can further grow
-                    and develop as a software developer.
+                    and develop as I continue my path to becoming a software developer.
                 </p>
                 <p style={styles.text}>
                     In the future, I plan on going back to school to get an MBA in Finance so I can eventually run my own business
