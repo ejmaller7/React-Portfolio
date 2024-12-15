@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+// Styling for the Navbar content
 const styles = {
     navbar: {
       backgroundColor: "#002244",
@@ -34,13 +35,15 @@ const styles = {
     navLinkHover: {
       color: "#00bcd4",
     },
-  };
+};
 
+// Function for the Navbar
 const Navbar = () => {
     return (
         <nav style={styles.navbar}>
             <ul style={styles.navList}>
                 <li style={styles.navItem}>
+                    {/* Link used from React-Router-Dom to change the pathway to the new section that is clicked */}
                     <Link to="/" style={styles.navLink}>AboutMe</Link>
                 </li>
                 <li style={styles.navItem}>
@@ -57,4 +60,5 @@ const Navbar = () => {
     );
 };
 
+// Exporting the Navbar file
 export default Navbar;

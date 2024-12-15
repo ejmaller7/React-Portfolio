@@ -1,5 +1,6 @@
 import Image from '../assets/images/Resume Picture.jpeg'
 
+// Styling for About Me section
 const styles = {
     container: {
       backgroundColor: "#002244",
@@ -34,8 +35,9 @@ const styles = {
       textAlign: "justify",
       maxWidth: "600px",
     },
-  };
+};
 
+// Function for About Me
 const AboutMe = () => {
     return (
         <section style={styles.container}>
@@ -65,4 +67,5 @@ const AboutMe = () => {
     );
 };
 
+// Exporting the AboutMe file
 export default AboutMe;

@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import Image from '../assets/images/EJMLogo.png';
 
+// Styling for the Header content
 const styles = {
     header: {
       display: "flex",
@@ -26,6 +27,7 @@ const styles = {
     },
 };
 
+// Function for the Header
 const Header = () => {
     return (
         <header style={styles.header}>
@@ -33,9 +35,11 @@ const Header = () => {
             <img src={Image} alt="EJM Logo" style={styles.logo} />
             <h1 style={styles.title}>Ethan J. Maller</h1>
         </div>
+            {/* Importing the Navbar file into the header */}
             <Navbar />
         </header>
     )
 }
 
+// Exporting the Header file
 export default Header;

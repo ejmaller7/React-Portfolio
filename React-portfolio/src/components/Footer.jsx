@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+// Styling for the Footer content
 const styles = {
     footer: {
       display: "flex",
@@ -18,9 +19,11 @@ const styles = {
     },
 };
 
+// Function for the Footer
 const Footer = () => {
     return (
         <footer style={styles.footer}>
+            {/* Links to GitHub, LinkedIn & Twitter using Icons that were imported above */}
             <a
                 href="https://github.com/ejmaller7"
                 target="_blank"
@@ -49,4 +52,5 @@ const Footer = () => {
     );
 }
 
+// Exporting the Footer file
 export default Footer;

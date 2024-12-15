@@ -1,3 +1,4 @@
+// Styling for Contact section
 const styles = {
     container: {
       backgroundColor: "#002244",
@@ -40,8 +41,9 @@ const styles = {
       borderRadius: "4px",
       cursor: "pointer",
     },
-  };
+};
 
+// Function for Contact
 const Contact = () => {
     return (
         <section style={styles.container}>
@@ -65,4 +67,5 @@ const Contact = () => {
     );
 };
 
+// Exporting the Contact file
 export default Contact;

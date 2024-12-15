@@ -1,3 +1,4 @@
+// Styling for the Resume section
 const styles = {
     container: {
       backgroundColor: "#002244",
@@ -33,16 +34,18 @@ const styles = {
     },
 };
 
+// Function for Resume
 const Resume = () => {
     return (
         <section style={styles.container}>
             <h1 style={styles.title}>Resume</h1>
             <p style={styles.text}>Click the link below to view or download my resume:</p>
-            <a href=".../assets/resume/Ethan Maller Resume 2025.pdf" target="_blank" rel="noopener noreferrer" download="My_Resume.pdf" style={styles.link}>
+            <a href="../assets/resume/Ethan Maller Resume 2025.pdf" target="_blank" rel="noopener noreferrer" download="My_Resume.pdf" style={styles.link}>
                 View/Download Resume
             </a>
         </section>
     );
 };
 
+// Exporting the Resume file
 export default Resume;

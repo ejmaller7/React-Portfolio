@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
+// Styling for the Project content
 const styles = {
   card: {
     position: "relative",
@@ -55,7 +56,9 @@ const styles = {
   },
 };
 
-const Project = ({ title, description, imageUrl, appLink, repoLink }) => {
+// Function for Project
+// Uses deconstructuring from the props to populate the content below
+const Project = ({ title, description, imageUrl, repoLink }) => {
     return (
         <div style={styles.card}>
           <div style={styles.imageContainer}>
@@ -74,4 +77,5 @@ const Project = ({ title, description, imageUrl, appLink, repoLink }) => {
     );
 };
 
+// Exporting the Project file
 export default Project;

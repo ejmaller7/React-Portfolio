@@ -6,6 +6,7 @@ import Image4 from '../assets/images/EmployeeTracker.jpg';
 import Image5 from '../assets/images/OpenAIAPI.png';
 import Image6 from '../assets/images/ReactPortfolio.jpeg';
 
+// Styling for the Portfolio section
 const styles = {
     container: {
         padding: "2rem",
@@ -24,9 +25,11 @@ const styles = {
         maxWidth: "1200px",
         margin: "0 auto",
       },
-    };
+};
 
+// Function for Portfolio
 const Portfolio = () => {
+    // Array with all of the projects that will be referenced in this portfolio - unique to their ID number
     const projects = [
         { id: 1, title: "E-Planner", description: "HTML, CSS, JavaScript", imageUrl: Image1, repoLink:"https://github.com/ejmaller7/E-Planner" },
         { id: 2, title: "Professional ReadMe Generator", description: "NodeJS, JavaScript", imageUrl: Image2, repoLink:"https://github.com/ejmaller7/Professional-README-Generator" },
@@ -40,6 +43,7 @@ const Portfolio = () => {
         <section style={styles.container}>
             <h1 style={styles.title}>Portfolio</h1>
             <div style={styles.grid}>
+                {/* Function that maps through array and renders the project component for each item listed in the array */}
                 {projects.map((project) => (
                     <Project key={project.id} {...project} />
                 ))}
@@ -48,4 +52,5 @@ const Portfolio = () => {
     );
 };
 
+// Exports the Portfolio file
 export default Portfolio;
