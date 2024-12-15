@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const styles = {
     navbar: {
-      backgroundColor: "#002244", // Dark navy blue background
+      backgroundColor: "#002244",
       padding: "1rem 2rem",
       display: "flex",
       justifyContent: "center",
@@ -25,14 +25,14 @@ const styles = {
     },
     navLink: {
       textDecoration: "none",
-      color: "#ffffff", // White text
+      color: "#ffffff",
       fontSize: "1.2rem",
       fontWeight: "bold",
       textTransform: "uppercase",
       transition: "color 0.3s ease",
     },
     navLinkHover: {
-      color: "#00bcd4", // Light blue on hover
+      color: "#00bcd4",
     },
   };
 
