@@ -7,7 +7,7 @@
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Links] (#links)
+  - [Links](#links)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -22,7 +22,8 @@
   To anyone who may be using this repo, this is intended to be a portfolio about you as a software developer. Use this to display your software developing skills and update the necessary fields to ensure it is personalized to you
 
   ## Links
-  Deployed Application Link: 
+  Deployed Application Link: (https://react-portfolio-ethan-maller.netlify.app/)
+  ![Deployed Application](DeployedApplication.png)
 
   ## License
   [MIT License](https://opensource.org/licenses/MIT)
